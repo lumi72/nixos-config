@@ -53,7 +53,7 @@
   # Enable CUPS to print documents.
   services.printing = {
     enable = true;
-    # drivers = [ pkgs.hplipWithPlugin ];
+    drivers = [ pkgs.hplipWithPlugin ];
   };
 
   # Enable sound.
